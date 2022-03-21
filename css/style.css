@@ -254,9 +254,9 @@ main div ul li b {
 }
 main div ul li iframe{
     background-color: rgb(98, 0, 128); 
-    padding: 20px; 
+    padding: 8px; 
     border-right: double white 10px ;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 15px 0 10px 0;
 }
 main fieldset{
@@ -357,7 +357,7 @@ header{
 main{
     background-color: rgb(189, 97, 201);
     grid-area: main;
-    height: 850px;
+    height: 1000px;
 }
 footer{
     background-color: rgb(98, 0, 128);
@@ -382,7 +382,7 @@ footer{
     main{
         background-color: rgb(188, 159, 194);
         grid-area: main;
-        height: 1000px;
+        height: 2200px;
     }
     footer{
         background-color: rgb(95, 82, 102);
@@ -408,7 +408,7 @@ footer{
     main{
         background-color: rgb(159, 97, 201);
         grid-area: main;
-        height: 1000px;
+        height: 1650px;
     }
     footer{
         background-color: rgb(124, 0, 128);
@@ -416,206 +416,6 @@ footer{
         height: 200px; 
     }
     .container_grid_index{
-        display: grid;
-        grid-template-columns: repeat(1fr 1fr);
-        grid-template-areas: 
-        "header header"
-        "main main"
-        "main main"
-        "footer footer";
-    }
-}
-
-.container_grid_header{
-    width: auto;
-    height: 300px;
-
-    display: grid;
-    
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1.5fr 1fr;
-    justify-content: stretch;
-    
-}
-/*
-.container_grid_cancion{
-    border: 5px outset black ;
-    background-color: rgb(192, 64, 231);
-    margin: 5px;
-    padding: 5px 0 0 0;
-
-}
-.container_grid_artista{
-    border: 5px outset black ;
-    background-color: rgb(192, 64, 231);
-    margin: 5px;
-    padding: 5px 0 5px 0;
-
-} 
-*/
-
-.box_icono{
-    transition: all 2s;
-
-}
-.box_icono:hover{
-    transform:scale(1.5);
-}
-
-/*vivo*/
-header{
-    height: 250px;
-    grid-area: header;
-}
-main{
-    background-color: rgb(189, 97, 201);
-    grid-area: main;
-    height: 850px;
-}
-footer{
-    background-color: rgb(98, 0, 128);
-    grid-area: footer;
-    height: 250px;
-}
-.container_grid_vivo{
-    display: grid;
-    grid-template-columns: repeat(1fr 1fr 1fr);
-    grid-template-areas: 
-    "header header header"
-    "main main main"
-    "main main main"
-    "footer footer footer";
-}
-@media (max-width: 481px){
-    header{
-        height: fit-content;
-        grid-area: header;
-    }
-    main{
-        background-color: rgb(188, 159, 194);
-        grid-area: main;
-        height: 400px;
-    }
-    footer{
-        background-color: rgb(95, 82, 102);
-        grid-area: footer;
-        height: 200px; 
-    }
-    .container_grid_vivo{
-        display: grid;
-        grid-template-columns: repeat(1fr);
-        grid-template-areas: 
-        "header"
-        "main"
-        "main"
-        "footer";
-    }
-}
-/*tablet*/
-@media (min-width: 482px) and (max-width: 780px){
-    header{
-        height: 200px;
-        grid-area: header;
-    }
-    main{
-        background-color: rgb(159, 97, 201);
-        grid-area: main;
-        height: 800px;
-    }
-    footer{
-        background-color: rgb(124, 0, 128);
-        grid-area: footer;
-        height: 300px; 
-    }
-    .container_grid_vivo{
-        display: grid;
-        grid-template-columns: repeat(1fr 1fr);
-        grid-template-areas: 
-        "header header"
-        "main main"
-        "main main"
-        "footer footer";
-    }
-}
-
-.container_grid_header{
-    width: auto;
-    height: 300px;
-
-    display: grid;
-    
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1.5fr 1fr;
-    justify-content: stretch;
-    
-}
-
-/*vivo*/
-header{
-    height: 250px;
-    grid-area: header;
-}
-main{
-    background-color: rgb(189, 97, 201);
-    grid-area: main;
-    height: 850px;
-}
-footer{
-    background-color: rgb(98, 0, 128);
-    grid-area: footer;
-    height: 250px;
-}
-.container_grid_feedb{
-    display: grid;
-    grid-template-columns: repeat(1fr 1fr 1fr);
-    grid-template-areas: 
-    "header header header"
-    "main main main"
-    "main main main"
-    "footer footer footer";
-}
-@media (max-width: 481px){
-    header{
-        height: fit-content;
-        grid-area: header;
-    }
-    main{
-        background-color: rgb(188, 159, 194);
-        grid-area: main;
-        height: 400px;
-    }
-    footer{
-        background-color: rgb(95, 82, 102);
-        grid-area: footer;
-        height: 200px; 
-    }
-    .container_grid_feedb{
-        display: grid;
-        grid-template-columns: repeat(1fr);
-        grid-template-areas: 
-        "header"
-        "main"
-        "main"
-        "footer";
-    }
-}
-/*tablet*/
-@media (min-width: 482px) and (max-width: 780px){
-    header{
-        height: 200px;
-        grid-area: header;
-    }
-    main{
-        background-color: rgb(159, 97, 201);
-        grid-area: main;
-        height: 800px;
-    }
-    footer{
-        background-color: rgb(124, 0, 128);
-        grid-area: footer;
-        height: 300px; 
-    }
-    .container_grid_feedb{
         display: grid;
         grid-template-columns: repeat(1fr 1fr);
         grid-template-areas: 
@@ -645,7 +445,7 @@ header{
 main{
     background-color: rgb(189, 97, 201);
     grid-area: main;
-    height: 1350px;
+    height: 1600px;
 }
 footer{
     background-color: rgb(98, 0, 128);
@@ -661,6 +461,7 @@ footer{
     "main main main"
     "footer footer footer";
 }
+/* celu */
 @media (max-width: 481px){
     header{
         height: fit-content;
@@ -669,7 +470,7 @@ footer{
     main{
         background-color: rgb(188, 159, 194);
         grid-area: main;
-        height: 1000px;
+        height: 1650px;
     }
     footer{
         background-color: rgb(95, 82, 102);
@@ -724,7 +525,36 @@ footer{
     justify-content: stretch;
     
 }
+
+/*
+.container_grid_cancion{
+    border: 5px outset black ;
+    background-color: rgb(192, 64, 231);
+    margin: 5px;
+    padding: 5px 0 0 0;
+
+}
+.container_grid_artista{
+    border: 5px outset black ;
+    background-color: rgb(192, 64, 231);
+    margin: 5px;
+    padding: 5px 0 5px 0;
+
+} 
+*/
+
+.box_icono{
+    transition: all 2s;
+
+}
+.box_icono:hover{
+    transform:scale(1.5);
+}
+
+
+
 /*feedb*/
+
 header{
     height: 250px;
     grid-area: header;
@@ -843,7 +673,7 @@ footer{
     main{
         background-color: rgb(188, 159, 194);
         grid-area: main;
-        height: 1200px;
+        height: 1600px;
     }
     footer{
         background-color: rgb(95, 82, 102);
@@ -869,7 +699,7 @@ footer{
     main{
         background-color: rgb(159, 97, 201);
         grid-area: main;
-        height: 1200px;
+        height: 1700px;
     }
     footer{
         background-color: rgb(124, 0, 128);
@@ -877,6 +707,192 @@ footer{
         height: 300px; 
     }
     .container_grid_staff{
+        display: grid;
+        grid-template-columns: repeat(1fr 1fr);
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "main main"
+        "footer footer";
+    }
+}
+/*vivo*/
+
+header{
+    height: 250px;
+    grid-area: header;
+}
+main{
+    background-color: rgb(189, 97, 201);
+    grid-area: main;
+    height: 900px;
+}
+footer{
+    background-color: rgb(98, 0, 128);
+    grid-area: footer;
+    height: 250px;
+}
+.container_grid_vivo{
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "main main main"
+    "footer footer footer";
+}
+@media (max-width: 481px){
+    header{
+        height: fit-content;
+        grid-area: header;
+    }
+    main{
+        background-color: rgb(188, 159, 194);
+        grid-area: main;
+        height: 1200px;
+    }
+    footer{
+        background-color: rgb(95, 82, 102);
+        grid-area: footer;
+        height: 200px; 
+    }
+    .container_grid_vivo{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        grid-template-areas: 
+        "header"
+        "main"
+        "main"
+        "footer";
+    }
+}
+/*tablet*/
+
+@media (min-width: 482px) and (max-width: 780px){
+    header{
+        height: 200px;
+        grid-area: header;
+    }
+    main{
+        background-color: rgb(159, 97, 201);
+        grid-area: main;
+        height: 1200px;
+    }
+    footer{
+        background-color: rgb(124, 0, 128);
+        grid-area: footer;
+        height: 300px; 
+    }
+    .container_grid_vivo{
+        display: grid;
+        grid-template-columns: repeat(1fr 1fr);
+        grid-template-areas: 
+        "header header"
+        "main main"
+        "main main"
+        "footer footer";
+    }
+}
+
+.container_grid_header{
+    width: auto;
+    height: 300px;
+
+    display: grid;
+    
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
+    justify-content: stretch;
+    
+}
+.radios{
+    margin: 15px;
+    padding: 5px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    grid-template-areas:
+    ". div div";
+}
+
+.container_grid_header{
+    width: auto;
+    height: 300px;
+
+    display: grid;
+    
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
+    justify-content: stretch;
+    
+}
+/*Grabs*/
+header{
+    height: 250px;
+    grid-area: header;
+}
+main{
+    background-color: rgb(189, 97, 201);
+    grid-area: main;
+    height: 1000px;
+}
+footer{
+    background-color: rgb(98, 0, 128);
+    grid-area: footer;
+    height: 250px;
+}
+.container_grid_grab{
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr 1fr);
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "main main main"
+    "footer footer footer";
+}
+@media (max-width: 481px){
+    header{
+        height: fit-content;
+        grid-area: header;
+    }
+    main{
+        background-color: rgb(188, 159, 194);
+        grid-area: main;
+        height: 400px;
+    }
+    footer{
+        background-color: rgb(95, 82, 102);
+        grid-area: footer;
+        height: 200px; 
+    }
+    .container_grid_grab{
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        grid-template-areas: 
+        "header"
+        "main"
+        "main"
+        "footer";
+    }
+}
+/*tablet*/
+
+@media (min-width: 482px) and (max-width: 780px){
+    header{
+        height: 200px;
+        grid-area: header;
+    }
+    main{
+        background-color: rgb(159, 97, 201);
+        grid-area: main;
+        height: 800px;
+    }
+    footer{
+        background-color: rgb(124, 0, 128);
+        grid-area: footer;
+        height: 300px; 
+    }
+    .container_grid_grab{
         display: grid;
         grid-template-columns: repeat(1fr 1fr);
         grid-template-areas: 
