@@ -776,7 +776,7 @@ footer{
     main{
         background-color: rgb(159, 97, 201);
         grid-area: main;
-        height: 1200px;
+        height: 1600px;
     }
     footer{
         background-color: rgb(124, 0, 128);
@@ -858,7 +858,7 @@ footer{
     main{
         background-color: rgb(188, 159, 194);
         grid-area: main;
-        height: 400px;
+        height: 1000px;
     }
     footer{
         background-color: rgb(95, 82, 102);
@@ -885,7 +885,7 @@ footer{
     main{
         background-color: rgb(159, 97, 201);
         grid-area: main;
-        height: 800px;
+        height: 900px;
     }
     footer{
         background-color: rgb(124, 0, 128);
