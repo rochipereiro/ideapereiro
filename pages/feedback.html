@@ -67,7 +67,7 @@
         <main>
             <h2>¡Dejanos tu opinion!</h2>
             <fieldset>
-                <div class="name ">
+                <!--<div class="name ">
                     <legend></legend>
                     Nombre: <input type="Nombre" class="name box_icono">
                 </div>
@@ -76,7 +76,20 @@
                     <input type="Comentario:"class="opinion box_icono" >
                 </div>
                 <br>
-                <button class="box_icono">Enviar</button>
+                <button class="box_icono">Enviar</button> -->
+                <div class="row ">
+                    <div class="col comentarioF">
+                      <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                    </div>
+                    <div class="col comentarioF">
+                      <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                    </div>
+                </div>
+                <div class="form-floating comentarioF">
+                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                    <label for="floatingTextarea2">Dejanos tu opinion...</label>
+                    <button class="box_icono">Enviar</button>
+                </div>
             </fieldset>
         </main>
         <!--opinion-->
