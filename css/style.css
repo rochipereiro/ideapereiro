@@ -283,6 +283,12 @@ footer div div ul li a {
   text-align: left;
 }
 
+.radio-cartas {
+  display: flex;
+  flex-direction: row;
+  border: double darkmagenta;
+}
+
 * {
   margin: 0;
   padding: 0;

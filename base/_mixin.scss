@@ -1,0 +1,9 @@
+@mixin cajaCartasRadio ($margin, $padding, $font-size, $font-family) {
+    display: flex;
+    flex-direction: row;
+    border: double darkmagenta;
+    
+}
+.radio-cartas{
+    @include cajaCartasRadio(5px, 30px, medium, times)
+}
