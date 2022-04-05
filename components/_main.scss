@@ -1,0 +1,164 @@
+.container_textoCancion{
+    width: 55%;
+    text-align: justify;
+    margin: 0 10px 0 10px;
+    padding: 15px;
+}
+.container_video{
+    width: 40%;
+    text-align: left;
+    margin: 15px 0 10px 25px;
+    background-color: rgb(158, 130, 202);
+    padding: 10px;
+}
+.container_textoArtista{
+    width: 55%;
+    text-align: justify;
+    margin: 10px 10px 10px 15px;
+    padding: 15px;
+
+}
+.container_foto{
+    width: 40%;
+    text-align: right;
+    margin: 15px 10px 0 10px;
+    background-color: rgb(158, 130, 202);
+    padding: 10px;
+
+}
+.slide{
+    color: white;
+    border: solid 1px white;
+    background-color: blueviolet; 
+    padding: 10px;
+    margin: 30px;
+    text-align: justify;
+}
+#staff{
+    width: 95%;
+    border: solid 5px rgb(0, 0, 0);
+    margin: 0 0 0 28px;
+}
+.guilleF{
+    width: 60%;
+    height: 60%;
+    margin: 0 0 0 70px;
+    border: solid 10px rgb(98, 0, 128);
+    border-radius: 40px;
+}
+.clauF{
+    width: 60%;
+    height: 60%;
+    margin: 0 0 0 70px;
+    border: solid 10px rgb(98, 0, 128);
+    border-radius: 40px;
+
+}
+.rubenF{
+    width: 60%;
+    height: 60%;
+    margin: 10px 0 0 70px;
+    border: solid 10px rgb(98, 0, 128);
+    border-radius: 40px;
+
+}
+.cotiF{
+    width: 70%;
+    height: 70%;
+    margin: 0 0 0 70px;
+    border: solid 10px rgb(98, 0, 128);
+    border-radius: 40px;
+
+}
+.voces2{
+    width: 50%;
+    height: 50%;
+    margin: 0 0 0 70px;
+    border: solid 10px rgb(98, 0, 128);
+}
+.imagenesPrograma{
+    width: 45%;
+    margin: 0 0 0 40px;
+    background-color: rgb(158, 130, 202);
+    padding: 10px;
+}
+.queEscuchar{
+    border-radius: 50%;
+    height: 50%;
+    margin: 15px 50px 15px 50px;
+    align-content: center;
+}
+.queEscucharTexto{
+    text-align: justify;
+    display: inline-block;
+}
+.vivo{
+    display: inline-block;
+    margin: 15px 0 0 50px;
+}
+.antena{
+    width: 50%;
+    height: 50%;
+}
+.radG{
+    width: 50%;
+    height: 40%;
+}
+.titulo_grabs{
+    text-align: center;
+}
+.mixCloud{
+    width: 10%;
+    height: 10%;
+}
+.name{
+    width: 60%;
+    height: 30%;
+    font-size: 40px;
+    margin: 30px 0 30px 40px;
+}
+.opinion{
+    font-size: 40px;
+    width: 80%;
+    height: 60%;
+    margin: 30px 0 30px 40px;
+
+}
+.container__div1{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+}
+.container__desplegable{
+    display: flex;
+    flex-direction: row;
+}
+.container_creamos{
+    text-align: justify;
+    margin: 10px 15px;
+}
+.container__instrumentos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.container__escuchar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.container__nuestro_p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ajuste{
+    display: inline;
+}
+.slidess{
+    width: 80%;
+    height: 80%;
+    size: 80px;
+}

@@ -1,0 +1,40 @@
+/* Header*/
+.navegador{
+    background-image: url(../images/fondoportada.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    display: inline-block;
+    h1{
+    font-size: 60px;
+    text-align: left;
+    }
+    img{
+    margin-top: 10px;
+    margin-left: 10px;
+    }
+}
+ul {
+    list-style: none;
+    font-size:0 
+ }
+ li {
+    display: inline-block;
+    width: 45%;
+    position: relative;
+    font-size: 14px
+ }
+ ul ul {
+    position: absolute;
+    display: none;
+ }
+ ul ul li {
+    display: block;
+    padding: 10px;
+    
+ }
+ ul li:hover ul {
+    display:block;
+ }
